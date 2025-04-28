@@ -1,5 +1,5 @@
-magicrelay.com=http://192.168.1.117:3080
-dev.magicrelay.com=http://192.168.1.117:4080
-api.logdash.io=http://192.168.1.117:5001
-dev-api.logdash.io=http://192.168.1.117:6001
-local-api.logdash.io=http://192.168.1.117:7001
+magicrelay.com=http://192.168.3.144:3080
+dev.magicrelay.com=http://192.168.3.144:4080
+api.logdash.io=http://192.168.3.144:5001
+dev-api.logdash.io=http://192.168.3.144:6001
+local-api.logdash.io=http://192.168.3.144:7001
