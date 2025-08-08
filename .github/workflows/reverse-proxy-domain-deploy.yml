@@ -17,7 +17,7 @@ jobs:
         with:
           dockerhub-username: ${{ secrets.DOCKERHUB_USERNAME }}
           dockerhub-token: ${{ secrets.DOCKERHUB_TOKEN }}
-          image-name: ablaszkiewicz/cluster-reverse-proxy-domain
+          image-name: bswitalski/cluster-reverse-proxy-domain
           context: ./reverse-proxy-domain
           file: ./reverse-proxy-domain/Dockerfile
       - name: Deploy
@@ -27,6 +27,6 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           port: ${{ secrets.SSH_PORT }}
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
-          image-name: ablaszkiewicz/cluster-reverse-proxy-domain
+          image-name: bswitalski/cluster-reverse-proxy-domain
           container-name: cluster-reverse-proxy-domain
           container-port: 80
