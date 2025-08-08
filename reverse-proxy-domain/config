@@ -1,5 +1,1 @@
-magicrelay.com=http://192.168.3.144:3080
-dev.magicrelay.com=http://192.168.3.144:4080
-api.logdash.io=http://192.168.3.144:5001
-dev-api.logdash.io=http://192.168.3.144:6001
-local-api.logdash.io=http://192.168.3.144:7001
+dev-api.moveforukraine.com=http://192.168.3.101:3000
