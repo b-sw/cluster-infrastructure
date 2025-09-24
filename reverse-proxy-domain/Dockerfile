@@ -4,6 +4,7 @@ WORKDIR /
 
 COPY ./config /
 COPY ./src/nxconf.sh /
+COPY ./conf.d /etc/nginx/conf.d/
 
 RUN chmod +x /nxconf.sh && /nxconf.sh
 
